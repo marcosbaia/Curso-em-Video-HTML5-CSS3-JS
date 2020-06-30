@@ -131,6 +131,18 @@ footer#rodape p {
     text-align: center;
 }
 /*Formatação da Tabela*/
+table#tabelaespec caption {
+    color: #888888;
+    font-size: 15pt;
+    font-weight: bolder;    
+}
+table#tabelaespec caption span {
+    display: block;
+    float: right;
+    color: #000000;
+    font-size: 8pt;
+    margin-top: 10px;
+}
 table#tabelaespec {
     border: 1px solid #606060;
     border-spacing: 0px;
@@ -141,5 +153,14 @@ table#tabelaespec td {
     border: 1px solid #606060;
     padding: 10px;
     text-align: center;
+    vertical-align: middle;
+}
+table#tabelaespec td.colunaesquerda {
+    color: #ffffff;
+    background-color: #606060;
     vertical-align: top;
+    font-weight: bold;
+}
+table#tabelaespec td.colunadireita {
+    background-color: #cecece;
 }
