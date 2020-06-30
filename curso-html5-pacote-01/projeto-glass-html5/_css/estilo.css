@@ -1,4 +1,10 @@
 @charset "UTF-8";
+/* Fontes do sites*/
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
 
 body{
     background-color: #dddddd;
@@ -29,7 +35,7 @@ header#cabecalho {
     background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 60px;
 }
 header#cabecalho h1{
-    font-family: Arial, sans-serif;
+    font-family: 'FonteLogo', sans-serif;
     font-size: 30px;
     color: #606060;
     text-shadow: 1px 1px 1px rgba(0,0,0,.6);
@@ -37,7 +43,7 @@ header#cabecalho h1{
     margin-bottom: 0px;
 }
 header#cabecalho h2{
-    font-family: Arial, sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     color: #888888;
     font-size: 15px;
     padding: 0px;
