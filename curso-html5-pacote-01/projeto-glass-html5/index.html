@@ -5,24 +5,25 @@
     <title>Tudo sobre Google Glass</title>
     <link rel="stylesheet" href="_css/estilo.css"/>
 </head>
+<script language="javascript" src="_javascript/funcoes.js"></script>
 <body>
-    <div id="interface">
+<div id="interface">
+
     <header id="cabecalho">
     <hgroup>
     <h1>Google Glass</h1>
     <h2>A revolução do Google está chegando</h2>
     </hgroup>
 
-    <img id="icone" src="_imagens/glass-oculos-preto-peq.png">
-
+    <img id="icone" src="_imagens/glass-oculos-preto-peq.png"/>
     <nav id="menu">
     <h1>Menu Principal</h1>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="specs.html">Especificações</a></li>
-        <li><a href="fotos.html">Fotos</a></li>
-        <li><a href="multimidia.html">Multimídia</a></li>
-        <li><a href="fale-conosco.html">Fale conosco</a></li>
+    <ul type="disc">
+        <li onmouseover="mudaFoto('_imagens/home.png')"             onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="index.html">Home</a></li>
+        <li onmouseover="mudaFoto('_imagens/especificacoes.png')"   onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="specs.html">Especificações</a></li>
+        <li onmouseover="mudaFoto('_imagens/fotos.png')"            onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="fotos.html">Fotos</a></li>
+        <li onmouseover="mudaFoto('_imagens/multimidia.png')"       onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="multimidia.html">Multimídia</a></li>
+        <li onmouseover="mudaFoto('_imagens/contato.png')"          onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="fale-conosco.html">Fale conosco</a></li>
     </ul>
     </nav>
     </header>
@@ -69,14 +70,14 @@
         <p>O vídeo de divulgação do Google mostra que você pode se transformar em uma espécie de “su&shy;per-<wbr/>hu&shy;ma&shy;no”, já que o aparelho pode indicar a quantos metros você está de seu destino, se o metrô está aberto ou fechado, mostrar o clima, agenda e até mesmo permitir que você marque encontros apenas com comandos de voz.</p>
 
         [AQUI ENTRA UM VÍDEO]
-
+        </article>
+    </section>
+    <aside id="lateral">
         <h1>Outras Notícias</h1>
         <h2>Vídeo mais recente</h2>
 
         [AQUI ENTRA UM VÍDEO]
-        </article>
-    </section>
-    <aside id="lateral">
+    
         <h2>Novidades no Glass</h2>
         <p>O Google enfim revelou as especificações completas do Google Glass, e com ele uma surpresa ainda inédita no mercado: a gigante das buscas usará um sistema de áudio baseado na transdução por condução. Através das hastes dos óculos, o som será transmitido para o ouvido do usuário por meio de microvibrações em determinados ossos de sua cabeça, sem usar nenhum tipo de alto-falante.</p>
 
@@ -87,6 +88,6 @@
         <a href="http://facebook.com/cursosemvideo" target="_blank">Facebook</a> | 
         <a href="http://twitter.com/cursosemvideo" target="_blank">Twitter</a></p>
     </footer>
-    </div>
+</div>
 </body>
 </html>
